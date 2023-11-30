@@ -1,2 +1,8 @@
-# SummarizeAI
-SummarizeAI is a website that helps you understand long articles without reading all the words. You just need to give it a web link, and it magically creates short summaries using smart computer technology. It's like having a quick cheat sheet for any article, making it easier for you to get the main points without spending a lot of time reading
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
