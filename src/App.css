@@ -76,7 +76,7 @@
 }
 
 .nav_button {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all translate-x-0 hover:bg-white hover:text-black;
+  @apply rounded-full border h-10 mt-4 border-black bg-black py-1.5 px-5 text-sm text-white transition-all translate-x-0 hover:bg-white hover:text-black;
 }
 
 .head_text {
@@ -84,13 +84,15 @@
 }
 
 .orange_gradient {
-@apply bg-gradient-to-r from-orange-600 via-purple-600 to-blue-500 bg-clip-text text-transparent;
+@apply bg-gradient-to-r from-orange-600 text-5xl via-purple-600 to-blue-500 bg-clip-text text-transparent;
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl mb-9;
 }
-
+.text{
+    @apply text-base text-gray-600 sm:text-sm text-center  max-w-md;
+}
 .url_input {
   @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0;
 }
