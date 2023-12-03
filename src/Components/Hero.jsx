@@ -4,8 +4,8 @@ const hero = () => {
   return (
     <header className='w-full flx justify-center items-center flex-col'>
         <nav className="flex justify-between mb-7 ">
-            <div className="logo">
-            <img src="./src/assets/summry.ai.png" alt="sumz_logo"
+            <div className="logo ">
+            <img src="./src/assets/summlogo.png" alt="sumz_logo"
              className="w-28 object-contain"/>
              </div>
              <button className="nav_button"> Github </button>
@@ -13,7 +13,7 @@ const hero = () => {
             <h1 className="head_text"> Summarize Artices with
             <br className="max-md:hidden"/> 
             <span
-             className="orange_gradient">OpenAi GPT-4</span>
+             className="orange_gradient">OpenAi GPT-4 </span>
              </h1>
              <h2 className="desc ">
              Effortlessly summarize any web or article link with this intelligent tool. It generates concise, meaningful summaries, providing a quick reference to key points within articles, ultimately saving valuable time.
