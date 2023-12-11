@@ -1,3 +1,5 @@
-// import {createApi , fetchbaseQuery} from '@reduxjs/toolkit/query/react';
+import {createApi , fetchbaseQuery} from '@reduxjs/toolkit/query/react';
 
-// export const 
+export const articalApi = createApi({
+    reducerPath:'articleApi',
+});
