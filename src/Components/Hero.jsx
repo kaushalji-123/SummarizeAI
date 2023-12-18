@@ -8,7 +8,7 @@ const hero = () => {
             <img src="./src/assets/summlogo.png" alt="sumz_logo"
              className="w-28 object-contain"/>
              </div>
-             <button className="nav_button"> Github </button>
+             <button className="nav_button" href="https://www.linkedin.com/in/divyanshu-kaushal-73a428209/"> Github </button>
         </nav>
             <h1 className="head_text"> Summarize Artices with
             <br className="max-md:hidden"/> 

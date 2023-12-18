@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* 
-  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+  The styles for this gradient grid background  
 */
 
 .main {
@@ -17,7 +17,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  background: radial-gradient(circle, rgba(69, 66, 114, 0) 0, #ffffff 100%);
   position: absolute;
   content: "";
   z-index: 2;
@@ -46,7 +46,7 @@
   /* max-width: 640px; */
   background-image: radial-gradient(
       at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
+      rgb(22, 22, 22) 0px,
       transparent 0%
     ),
     radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
