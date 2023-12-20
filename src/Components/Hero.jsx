@@ -2,8 +2,8 @@ import React from 'react'
 const hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
-        <nav className="flex justify-between mb-7 bg">
-            <div className="logo ">
+        <nav className="flex justify-between h-11 gap-9 w-full mb-7 bg">
+            <div className="logo">
             <img src="./src/assets/summlogo.png" alt="sumz_logo"
              className="w-28"/>
              </div>
