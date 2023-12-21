@@ -5,20 +5,23 @@ export const articalApi = createApi({
     reducerPath: 'articalApi',
     baseQuery: fetchBaseQuery ({ baseUrl: 'https://article-extractor-and-summarizer.p.rapidapi.com/',
     prepareHeaders:(headers) => {
-      headers.set('X-RappidAPI-Key' , rapidApiKey);
+      headers.set('X-RapidAPI-Key' , rapidApiKey);
       headers.set('X-RapidAPI-Host' , 
       'article-extractor-and-summarizer.p.rapidapi.com');
 
-      return headers;
+      return headers;     
      }
    }),
    
     endpoints: (builder) => ({
         getSummary: builder.query({
-            query: (params) => `/summarizer?url=
-            ${encodeURIComponent(params.articleUrl)}&length=3`
-        }),
-    }),
+            query: (params) => {
+                const apiUrl = `/summarize?url=${encodeURIComponent(params.articleUrl)}&length=3`;
+                console.log('API URL:', apiUrl);
+                return apiUrl;
+            }
+        })
+    })
 });
 
 export const { useLazyGetSummaryQuery} = articalApi;    

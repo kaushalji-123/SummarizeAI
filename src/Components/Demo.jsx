@@ -8,7 +8,7 @@ const Demo = () => {
   })
 
   const [getSummary, {error, isFetching}] =
-  useLazyGetSummaryQuery()
+  useLazyGetSummaryQuery();
 
   const handleSubmit = async (e) =>{
     e.preventDefault();
