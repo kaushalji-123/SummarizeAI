@@ -32,6 +32,7 @@ export const articleApi = createApi({
     endpoints: (builder) => ({
         getSummary: builder.query({
                 query: (params) => `summarize?url=${encodeURIComponent(params.articleUrl)}&length=3`
+                // when we pass a usergenerated content we use wrap into this func 'encodeURIComponent ' 
         })
     })
 });

@@ -11,8 +11,9 @@ const [allArticles, setAllArticles] = useState([]);
   const [getSummary, {error, isFetching}] =
   useLazyGetSummaryQuery();
 
-  // using useEffect for not loosing the data as soon as we refresh the website
-  useEffect(()=>{    const articlesFromLocalStorage = JSON.parse(
+  // using useEffect for not loosing the data as soon as we refresh the website we stored as a local storage here
+  useEffect(()=>{    
+    const articlesFromLocalStorage = JSON.parse(
       localStorage.getItem('articles')
     )
     if(articlesFromLocalStorage){
@@ -68,7 +69,7 @@ const [allArticles, setAllArticles] = useState([]);
               onClick={() => setArticle(item)}
               className='link_card'
             >
-              <div className='copy_btn' onClick={() => handleCopy(item.url)}>
+              {/* <div className='copy_btn' onClick={() => handleCopy(item.url)}>
                 <img
                   src={copied === item.url ? tick : copy}
                   alt={copied === item.url ? "tick_icon" : "copy_icon"}
@@ -77,7 +78,7 @@ const [allArticles, setAllArticles] = useState([]);
               </div>
               <p className='flex-1 font-satoshi text-blue-700 font-medium text-sm truncate'>
                 {item.url}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>
