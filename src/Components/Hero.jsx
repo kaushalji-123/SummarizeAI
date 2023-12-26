@@ -3,7 +3,7 @@ const hero = () => {
     <header className='w-full flex justify-center items-center flex-col'>
         <nav className="flex justify-between h-11 gap-9 w-full mb-7 bg">
             <div className="logo">
-            <img src="./src/assets/summlogo.png" alt="sumz_logo"
+            <img src="./src/assets/sumAi.png" alt="sumz_logo"
              className="w-28"/>
              </div>
              <button className="nav_button"  type='button'
