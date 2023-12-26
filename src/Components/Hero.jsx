@@ -1,4 +1,3 @@
-import React from 'react'
 const hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
@@ -7,9 +6,12 @@ const hero = () => {
             <img src="./src/assets/summlogo.png" alt="sumz_logo"
              className="w-28"/>
              </div>
-             <button className="nav_button" href="https://www.linkedin.com/in/divyanshu-kaushal-73a428209/"> Github </button>
+             <button className="nav_button"  type='button'
+          onClick={() =>
+            window.open("https://github.com/kaushalji-123/SummarizeAI", "_blank")
+          }> Github </button>
         </nav>
-            <h1 className="head_text"> Summarize Artices with
+            <h1 className="head_text"> Summarize Article with
             <br className="max-md:hidden"/> 
             <span
              className="orange_gradient">OpenAi GPT-4 </span>
