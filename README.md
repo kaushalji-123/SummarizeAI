@@ -28,6 +28,7 @@ To run this project locally:
 ## Contributing
 
 If you wish to contribute to this project, feel free to fork the repository and submit pull requests. All contributions are welcome!
+[Link :](https://github.com/kaushalji-123/SummarizeAI.git)
 
 ## Acknowledgements
 
